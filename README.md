@@ -1,11 +1,11 @@
 
-# Smart Waste Bin - Revolutionizing Waste Management
+# Bingiene - Revolutionizing Waste Management
 
-![Smart Waste Bin](public/placeholder.svg)
+![Bingiene](public/placeholder.svg)
 
 ## About the Project
 
-Smart Waste Bin (SWB) is an AI-powered, sensor-integrated waste management solution that automatically detects, classifies, and segregates waste into four categories: dry, wet, metal, and plastic. This innovative technology is designed to improve recycling rates, reduce landfill usage, and optimize waste collection processes.
+Bingiene is an AI-powered, sensor-integrated waste management solution that automatically detects, classifies, and segregates waste into four categories: dry, wet, metal, and plastic. This innovative technology is designed to improve recycling rates, reduce landfill usage, and optimize waste collection processes.
 
 ## Key Features
 
@@ -82,8 +82,8 @@ npm run build
 
 ## License
 
-© 2025 Smart Waste Bin. All rights reserved.
+© 2025 Bingiene. All rights reserved.
 
 ## Contact
 
-For inquiries about Smart Waste Bin technology, please contact us through the website.
+For inquiries about Bingiene technology, please contact us through the website.

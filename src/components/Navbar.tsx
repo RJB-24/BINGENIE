@@ -33,7 +33,7 @@ const Navbar = () => {
     <nav className={`fixed top-0 w-full z-50 transition-all duration-300 ${isScrolled ? "bg-white shadow-md py-2" : "bg-transparent py-4"}`}>
       <div className="container px-4 md:px-6 mx-auto flex justify-between items-center">
         <a href="#" className="text-swb-green font-poppins font-bold text-2xl">
-          SmartWasteBin
+          Bingiene
         </a>
 
         {/* Desktop Menu */}
