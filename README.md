@@ -1,7 +1,6 @@
 
 # Bingiene - Revolutionizing Waste Management
 
-![Bingiene](public/placeholder.svg)
 
 ## About the Project
 
