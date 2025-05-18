@@ -1,73 +1,89 @@
-# Welcome to your Lovable project
 
-## Project info
+# Smart Waste Bin - Revolutionizing Waste Management
 
-**URL**: https://lovable.dev/projects/562220d8-5d13-4b3a-9657-0d760bd78f77
+![Smart Waste Bin](public/placeholder.svg)
 
-## How can I edit this code?
+## About the Project
 
-There are several ways of editing your application.
+Smart Waste Bin (SWB) is an AI-powered, sensor-integrated waste management solution that automatically detects, classifies, and segregates waste into four categories: dry, wet, metal, and plastic. This innovative technology is designed to improve recycling rates, reduce landfill usage, and optimize waste collection processes.
 
-**Use Lovable**
+## Key Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/562220d8-5d13-4b3a-9657-0d760bd78f77) and start prompting.
+### Auto Waste Detection
+Advanced sensors detect waste type as soon as it's placed near the bin opening, making waste disposal effortless for users.
 
-Changes made via Lovable will be committed automatically to this repo.
+### ML-Based Classification
+Machine learning algorithms identify and sort waste into dry, wet, metal, and plastic categories with high accuracy.
 
-**Use your preferred IDE**
+### LED Feedback System
+Visual feedback helps users understand waste classification with intuitive color-coded signals.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Real-Time Fill Level Alerts
+Collection teams receive notifications when bins need emptying, optimizing collection routes and reducing operational costs.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Environmental & Economic Benefits
 
-Follow these steps:
+- **40% Landfill Reduction**: Less waste ends up in landfills, reducing environmental impact.
+- **65% Improved Recycling Rate**: Better waste segregation leads to higher quality recyclable materials.
+- **30% Lower Collection Costs**: Optimized routes and fewer collection trips save time and resources.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## Perfect For
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+- **🏫 Campuses**: Promote sustainability among students and faculty
+- **🏙️ Cities**: Enhance public waste management infrastructure
+- **🏢 Apartments**: Simplify waste sorting for residents
+- **🖥️ Offices**: Support corporate sustainability initiatives
 
-# Step 3: Install the necessary dependencies.
-npm i
+## Technology Stack
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+This website is built with:
+
+- **React**: For building the user interface
+- **TypeScript**: For type-safe code
+- **Tailwind CSS**: For styling
+- **Shadcn UI**: For UI components
+- **Vite**: For fast development and builds
+
+## Getting Started
+
+### Prerequisites
+- Node.js 18+ 
+- npm or compatible package manager
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone <repository-url>
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## Customization
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- Colors and theme variables can be adjusted in `tailwind.config.ts`
+- Components are modular and can be found in the `src/components` directory
+- Main page content is in `src/pages/Index.tsx`
 
-**Use GitHub Codespaces**
+## Deployment
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+The site can be built for production using:
+```bash
+npm run build
+```
 
-## What technologies are used for this project?
+## License
 
-This project is built with:
+© 2025 Smart Waste Bin. All rights reserved.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## Contact
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/562220d8-5d13-4b3a-9657-0d760bd78f77) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+For inquiries about Smart Waste Bin technology, please contact us through the website.
