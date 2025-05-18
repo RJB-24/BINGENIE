@@ -6,7 +6,6 @@ import SectionContainer from "@/components/SectionContainer";
 import FeatureCard from "@/components/FeatureCard";
 import TestimonialCard from "@/components/TestimonialCard";
 import StatCard from "@/components/StatCard";
-import ContactForm from "@/components/ContactForm";
 import Navbar from "@/components/Navbar";
 
 const Index = () => {
@@ -37,18 +36,8 @@ const Index = () => {
               <Button 
                 size="lg" 
                 className="bg-white text-swb-green hover:bg-opacity-90"
-                onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })}
               >
-                Book a Free Demo
-              </Button>
-              <Button 
-                size="lg" 
-                variant="outline" 
-                className="bg-transparent border-white text-white hover:bg-white/10"
-                onClick={() => document.getElementById("demo")?.scrollIntoView({ behavior: "smooth" })}
-              >
-                <Play className="mr-2 h-4 w-4" />
-                Watch It in Action
+                Learn More
               </Button>
             </div>
           </div>
@@ -193,78 +182,6 @@ const Index = () => {
         </div>
       </SectionContainer>
 
-      {/* Demo Video Section */}
-      <SectionContainer id="demo" className="bg-swb-gray">
-        <div className="text-center mb-16 animate-fade-in">
-          <h2 className="text-3xl md:text-4xl font-bold text-swb-dark-gray mb-4">
-            See Smart Waste Bin in Action
-          </h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Watch how our AI-powered waste segregation system works in real-time.
-          </p>
-        </div>
-
-        <div className="max-w-4xl mx-auto bg-white rounded-xl shadow-md overflow-hidden animate-fade-in">
-          <div className="aspect-video relative">
-            <iframe
-              className="absolute top-0 left-0 w-full h-full"
-              src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-              title="Smart Waste Bin Demo"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
-          </div>
-        </div>
-      </SectionContainer>
-
-      {/* Contact Section */}
-      <SectionContainer id="contact" className="bg-white">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
-          <div className="animate-fade-in">
-            <h2 className="text-3xl md:text-4xl font-bold text-swb-dark-gray mb-4">
-              Get in Touch
-            </h2>
-            <p className="text-lg text-gray-600 mb-8">
-              Interested in Smart Waste Bin for your campus, city, or office? Contact us to learn more or schedule a free demo.
-            </p>
-            
-            <div className="space-y-4">
-              <div className="flex items-center">
-                <div className="w-12 h-12 bg-swb-light-green rounded-full flex items-center justify-center text-swb-green mr-4">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
-                  </svg>
-                </div>
-                <div>
-                  <p className="font-medium">Phone</p>
-                  <p className="text-gray-600">(123) 456-7890</p>
-                </div>
-              </div>
-              
-              <div className="flex items-center">
-                <div className="w-12 h-12 bg-swb-light-green rounded-full flex items-center justify-center text-swb-green mr-4">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-                    <polyline points="22,6 12,13 2,6"></polyline>
-                  </svg>
-                </div>
-                <div>
-                  <p className="font-medium">Email</p>
-                  <p className="text-gray-600">info@smartwastebin.com</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-          <div className="bg-white rounded-xl shadow-md p-6 md:p-8 animate-fade-in">
-            <h3 className="text-2xl font-semibold text-swb-dark-gray mb-6">
-              Request a Demo
-            </h3>
-            <ContactForm />
-          </div>
-        </div>
-      </SectionContainer>
-
       {/* Footer */}
       <footer className="bg-swb-dark-gray text-white py-12">
         <div className="container px-4 md:px-6 mx-auto">
@@ -282,8 +199,6 @@ const Index = () => {
                 <a href="#features" className="text-gray-300 hover:text-white transition-colors">Features</a>
                 <a href="#benefits" className="text-gray-300 hover:text-white transition-colors">Benefits</a>
                 <a href="#testimonials" className="text-gray-300 hover:text-white transition-colors">Testimonials</a>
-                <a href="#demo" className="text-gray-300 hover:text-white transition-colors">Demo</a>
-                <a href="#contact" className="text-gray-300 hover:text-white transition-colors">Contact</a>
               </div>
             </div>
             

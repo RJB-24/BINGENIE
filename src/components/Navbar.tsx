@@ -27,8 +27,6 @@ const Navbar = () => {
     { title: "Features", href: "#features" },
     { title: "Benefits", href: "#benefits" },
     { title: "Testimonials", href: "#testimonials" },
-    { title: "Demo", href: "#demo" },
-    { title: "Contact", href: "#contact" },
   ];
 
   return (
@@ -53,9 +51,9 @@ const Navbar = () => {
           </div>
           <Button 
             className="bg-swb-green hover:bg-swb-green/90"
-            onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })}
+            onClick={() => window.location.href="#features"}
           >
-            Book a Demo
+            Learn More
           </Button>
         </div>
 
@@ -88,11 +86,11 @@ const Navbar = () => {
             <Button 
               className="bg-swb-green hover:bg-swb-green/90 w-full"
               onClick={() => {
-                document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
+                window.location.href="#features";
                 setMobileMenuOpen(false);
               }}
             >
-              Book a Demo
+              Learn More
             </Button>
           </div>
         </div>
